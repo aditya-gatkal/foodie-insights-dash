@@ -1,0 +1,45 @@
+{
+  "name": "Zomato Red-White Premium",
+  "dataColors": ["#E31837", "#FFD700", "#2E2E2E", "#F5F5F5", "#FF6F61", "#FFB347"],
+  "background": "#FFFFFF",
+  "foreground": "#2E2E2E",
+  "tableAccent": "#E31837",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "color": [{"solid": {"color": "#2E2E2E"}}],
+        "fontFamily": "Montserrat",
+        "fontSize": 12
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{"solid": {"color": "#FFFFFF"}}],
+        "border": [{"show": true, "color": "#E31837", "weight": 1}],
+        "radius": 15,
+        "shadow": [{"show": true, "x": 0, "y": 4, "blur": 10, "color": "#00000033"}],
+        "color": [{"solid": {"color": "#E31837"}}],
+        "fontSize": 24,
+        "fontFamily": "Montserrat",
+        "labelColor": [{"solid": {"color": "#2E2E2E"}}]
+      }
+    },
+    "titleText": {
+      "*": {
+        "color": [{"solid": {"color": "#2E2E2E"}}],
+        "fontSize": 14,
+        "fontFamily": "Montserrat",
+        "fontWeight": "Bold"
+      }
+    },
+    "header": {
+      "*": {
+        "background": [{"solid": {"color": "#E31837"}}],
+        "color": [{"solid": {"color": "#FFFFFF"}}],
+        "fontSize": 14,
+        "fontFamily": "Montserrat",
+        "fontWeight": "Bold"
+      }
+    }
+  }
+}
